@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/landing.css">
     <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/academic.css">
     <title>Document</title>
 </head>
 <body>
@@ -25,9 +26,10 @@
                 
             </div>
         </div>
-        <div id="about-header"><h1>About</h1></div>
+        <div id="about-header"><h1 class="main-header">About</h1></div>
         <div id="landing-whiteSpace"><div class="whitespace-border"></div><div id="whitespace-center"></div><div class="whitespace-border"></div></div>
     </div>
+
     <div id="about-container">
         <div id="about-shape"></div>
         <div id="about-content">
@@ -39,5 +41,64 @@
             </div>
         </div>
     </div>
+    <div id="academic-container">
+        <div id="academic-content-container">
+            <h1 class="main-header">Featured Courses</h1>
+            <div id="featured-courses-container">
+                <div class="courses-two-flex">
+                    <div class="featured-course flex-one">
+                        <h2 class="secondary-header course-header">Advanced Web Design</h2>
+                        <div class="course-info-container">
+                            <p class="grade">Grade: A</p>
+                            <p class="course-more-info">More Info</p>
+                            <p class="course-less-info hide">Less Info</p>
+                            <div class="course-desc">
+                                <p>HTML semantics, CSS properties (display, flexbox, grid, position, animations, color, ect), ID and Classes, Responsive design using media queries, DOM manipulation,  Local storage, Sessions & Cookies, and PHP/MySQL .</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="featured-course flex-two">
+                        <h2 class="secondary-header course-header">Analysis of Algorithms  </h2>
+                        <div class="course-info-container">
+                            <p class="grade">Grade: A</p>
+                            <p class="course-more-info">More Info</p>
+                            <p class="course-less-info hide">Less Info</p>
+                            <div class="course-desc">
+                                <p>Algorithmic analysis techniques, advanced data structures, sorting (merge sort, heap sort, insertion sort, selection sort, bubble sort), average-case characteristics, graphs, trees, and Big O notation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses-two-flex">
+                    <div class="featured-course flex-one">
+                        <h2 class="secondary-header course-header">Database Management Systems</h2>
+                        <div class="course-info-container">
+                            <p class="grade">Grade: A</p>
+                            <p class="course-more-info">More Info</p>
+                            <p class="course-less-info hide">Less Info</p>
+                            <div class="course-desc">
+                                <p>Data Query Language (DQL), Data Manipulation Language (DML), Data Definition Language (DDL), Data Control Language (DCL), HTML form inputs, data entry validation, select to display/insert/update/delete data from database through the browser, XAMPP, and phpMyAdmin.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="featured-course flex-two">
+                        <h2 class="secondary-header course-header">Data Structures & Algorithms</h2>
+                        <div class="course-info-container">
+                            <p class="grade">Grade: A</p>
+                            <p class="course-more-info">More Info</p>
+                            <p class="course-less-info hide">Less Info</p>
+                            <div class="course-desc">
+                                <p>Abstract Data Types, implementations of classical ADT’s (list, sets, stacks, queues, trees, and graphs), recursion and dynamic programming, and elementary algorithm analysis.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2 id="view-more-classes"class="secondary-header">View More Classes</h2>
+            <p id="additional-classes">Computer Architecture, Big Data Computing, Program World Wide Web Server, Object Oriented Analysis & Design, Principles of Networking, Computer Operating Systems, Information Systems Programming, Computer Organization & Arch, Calculus, Computer Systems, Fundamental of Computer Science, Statistics, Matric & Linear Algebra </p>
+        </div>
+        <div id="academic-shape"></div>
+    </div>
+    <script src="javascript/eventHandler.js"></script>
 </body>
 </html>
