@@ -1,0 +1,21 @@
+#resume-container{
+background:black;
+padding:25px 0px;
+display:flex;
+justify-content: center;
+border-left:3px solid #A3c4BC;
+ border-right:3px solid #A3c4BC;
+}
+#resume-button{
+    background:none;
+    color:#A3c4BC;
+    padding:20px 25px;
+    font-size:20px;
+    border-radius: 20px;
+    border:3px solid #F2DDA4;
+}
+#resume-button:hover{
+    background:#F2DDA4;
+    color: black;
+    border:3px solid #A3c4BC;
+}

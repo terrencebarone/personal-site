@@ -35,17 +35,20 @@
 }
 .project-less-info{
     text-align: center;
-    display:none;
+   
 }
 .project-text{
     font-size:18px;
-    padding:15px;
-    display:none;
+    padding:0px;
+    max-height:0px;
+    overflow: hidden;
+    transition: max-height 1s;
 }
 @media screen and (min-width: 768px) {
     .featured-project{
         margin:50px 0px;
         max-width:600px;
+      
     }
     .project-image{
         width:80%;
@@ -73,11 +76,11 @@
         justify-content: space-evenly;
     }
     .featured-project{
-        min-width:25vw;
+        max-width:25vw;
         min-height: 400px;
     }
      .project-more-info{
-        font-size:30px;
+        font-size:25px;
        
     }
     .project-image{
@@ -85,7 +88,7 @@
        height:250px;
      }
     .project-less-info{
-        font-size:30px;
+        font-size:25px;
      
     }
 }

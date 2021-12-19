@@ -29,3 +29,19 @@ viewMoreClasses.addEventListener("click", ()=>{
         moreClasses.style.maxHeight="0px";
     }
 })
+
+//Open and closes view more for projects 
+let projectMoreInfo = document.querySelectorAll(".project-more-info");
+let projectLessInfo = document.querySelectorAll(".project-less-info");
+for(var i =0; i < 3 ;i++){
+    projectMoreInfo[i].addEventListener("click",  (function(){
+        this.classList.add("hide");
+        this.nextElementSibling.classList.remove("hide");
+        this.nextElementSibling.nextElementSibling.style.maxHeight="500px";
+    }))
+    projectLessInfo[i].addEventListener("click", (function(){
+        this.classList.add("hide");
+        this.previousElementSibling.classList.remove("hide");
+        this.nextElementSibling.style.maxHeight="0px";
+    }))
+}

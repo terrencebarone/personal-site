@@ -25,19 +25,19 @@
     align-items: center;
     justify-content: center;
     position:relative;
-    top:-8vh;
+    top:-10vh;
     animation: socialDrop 1s forwards 4s;
 }
 @keyframes socialDrop {
     from{
-        top:-8vh;
+        top:-10vh;
     }
     to{
-        top:0;
+        top:1vh;
     }
 }
 #social-container img{
-    max-height: 7vh;
+    max-height: 10vh;
     margin:0px 5px;
 }
 
@@ -129,5 +129,6 @@
     width:50vw;
     height:100%;
 }
+@media screen and (min-width: 768px) {
 
-
+}
