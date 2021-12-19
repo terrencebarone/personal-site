@@ -12,15 +12,16 @@
     <link rel="stylesheet" href="css/project.css">
     <link rel="stylesheet" href="css/resume.css">
     <link rel="stylesheet" href="css/footer.css">
+    
     <title>Terrence Barone</title>
 </head>
 <body>
     <div id="landing-container">
         <header id="header">
             <div id="social-container">
-                <img src="images/linkedin-icon.png" alt="linkedin icon">
-                <img src="images/github-icon.png" alt="github icon">
-                <img src="images/twitter-icon.png" alt="twitter icon">
+                <a class="social-icon-link" href="https://www.linkedin.com/in/baronecreates/"><img src="images/linkedin-icon.png" alt="linkedin icon"></a>
+                <a class="social-icon-link" href="https://github.com/terrencebarone"><img src="images/github-icon.png" alt="github icon"></a>
+                <a class="social-icon-link" href="https://twitter.com/TerryCodesAlot"><img src="images/twitter-icon.png" alt="twitter icon"></a>
             </div>
         </header>
         <div id="landing-content">
@@ -48,7 +49,7 @@
     <div id="academic-container">
         <div id="academic-content-container">
             <h1 class="main-header">Featured Courses</h1>
-            <div id="featured-courses-container">
+            <div id="featured-courses-container" class="reveal">
                 <div class="courses-two-flex">
                     <div class="featured-course flex-one">
                         <h2 class="secondary-header course-header">Advanced Web Design</h2>
@@ -105,7 +106,7 @@
     </div>
     <div id="skill-container">
         <h1 style="color:#F2DDA4;"class="main-header">Skills</h1>
-        <div id="skill-icon-container">
+        <div id="skill-icon-container" class="reveal">
             <img src="images/skill-Icon/html.png" alt="html icon" class="skill-icon">
             <img src="images/skill-Icon/css.png" alt="css icon" class="skill-icon">
             <img src="images/skill-Icon/js.png" alt="javascript icon" class="skill-icon">
@@ -120,7 +121,7 @@
     </div>
     <div id="project-container">
         <h1 class="main-header">Featured Projects</h1>
-        <div id="project-flex-container">
+        <div id="project-flex-container" class="reveal">
             <div class="featured-project">
                 <h2 class="secondary-header project-header">Calendar Planner</h2>
                 <img class="project-image"src="images/Calendar.png" alt="">
@@ -145,11 +146,11 @@
         </div>
     </div>
     <div id="resume-container">
-        <a id="resume-button">Download Resume Here</a>
+        <a id="resume-button" href="resume/TerrenceBarone-Resume.pdf" download>Download Resume Here</a>
     </div>
     <footer>
-        <p>Email: Barone.terrence@gmail.com</p>
-        <p>Phone: (908)-591-7593</p>
+        <p>Email:<br> Barone.terrence@gmail.com</p>
+        <p>Phone:<br> (908)-591-7593</p>
     </footer>
     <script src="javascript/eventHandler.js"></script>
 </body>
